@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/mnt/files/Lucas/Documents/Engenharia_de_Computacao/4_periodo/AEDS_2/RB/git/src/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+Black	red_black.h	/^enum COLOR { Red, Black };$/;"	e	enum:COLOR
+COLOR	red_black.h	/^enum COLOR { Red, Black };$/;"	g
+COLOR	red_black.h	/^typedef enum COLOR COLOR;$/;"	t	typeref:enum:COLOR
+NIL	red_black.h	/^  tree_node *NIL;$/;"	m	struct:red_black_tree	typeref:typename:tree_node *
+Record	red_black.h	/^struct Record {$/;"	s
+Record	red_black.h	/^typedef struct Record Record;$/;"	t	typeref:struct:Record
+Red	red_black.h	/^enum COLOR { Red, Black };$/;"	e	enum:COLOR
+SPACE	main.c	/^#define SPACE /;"	d	file:
+__RED_BLACK_H	red_black.h	/^#define __RED_BLACK_H$/;"	d
+color	red_black.h	/^  COLOR color;$/;"	m	struct:tree_node	typeref:typename:COLOR
+data	red_black.h	/^  Record data;$/;"	m	struct:tree_node	typeref:typename:Record
+inorder	red_black.c	/^void inorder(red_black_tree *t, tree_node *n) {$/;"	f	typeref:typename:void
+insert	red_black.c	/^void insert(red_black_tree *t, tree_node *z) {$/;"	f	typeref:typename:void
+insertion_fixup	red_black.c	/^void insertion_fixup(red_black_tree *t, tree_node *z) {$/;"	f	typeref:typename:void
+key	red_black.h	/^  char *key;$/;"	m	struct:Record	typeref:typename:char *
+left	red_black.h	/^  tree_node *left;$/;"	m	struct:tree_node	typeref:typename:tree_node *
+left_rotate	red_black.c	/^void left_rotate(red_black_tree *t, tree_node *x) {$/;"	f	typeref:typename:void
+main	main.c	/^int main() {$/;"	f	typeref:typename:int
+minimum	red_black.c	/^tree_node *minimum(red_black_tree *t, tree_node *x) {$/;"	f	typeref:typename:tree_node *
+new_red_black_tree	red_black.c	/^red_black_tree *new_red_black_tree() {$/;"	f	typeref:typename:red_black_tree *
+new_tree_node	red_black.c	/^tree_node *new_tree_node(Record data) {$/;"	f	typeref:typename:tree_node *
+parent	red_black.h	/^  tree_node *parent;$/;"	m	struct:tree_node	typeref:typename:tree_node *
+print2D	red_black.c	/^void print2D(red_black_tree *tree, tree_node *root, int cont) {$/;"	f	typeref:typename:void
+print2DUtil	red_black.c	/^void print2DUtil(red_black_tree *tree, tree_node *root, int space,$/;"	f	typeref:typename:void
+rb_delete	red_black.c	/^void rb_delete(red_black_tree *t, tree_node *z) {$/;"	f	typeref:typename:void
+rb_delete_fixup	red_black.c	/^void rb_delete_fixup(red_black_tree *t, tree_node *x) {$/;"	f	typeref:typename:void
+rb_search	red_black.c	/^tree_node *rb_search(red_black_tree *T, tree_node *x, tree_node *z) {$/;"	f	typeref:typename:tree_node *
+rb_transplant	red_black.c	/^void rb_transplant(red_black_tree *t, tree_node *u, tree_node *v) {$/;"	f	typeref:typename:void
+red_black_tree	red_black.h	/^struct red_black_tree {$/;"	s
+red_black_tree	red_black.h	/^typedef struct red_black_tree red_black_tree;$/;"	t	typeref:struct:red_black_tree
+right	red_black.h	/^  tree_node *right;$/;"	m	struct:tree_node	typeref:typename:tree_node *
+right_rotate	red_black.c	/^void right_rotate(red_black_tree *t, tree_node *x) {$/;"	f	typeref:typename:void
+root	red_black.h	/^  tree_node *root;$/;"	m	struct:red_black_tree	typeref:typename:tree_node *
+tree_node	red_black.h	/^struct tree_node {$/;"	s
+tree_node	red_black.h	/^typedef struct tree_node tree_node;$/;"	t	typeref:struct:tree_node
+value	red_black.h	/^  char *value;$/;"	m	struct:Record	typeref:typename:char *
