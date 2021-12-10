@@ -17,7 +17,7 @@ make
 ```
 E em seguida informa a frase que deseja traduzir:
 
-<img src="ArvoresRedBlack_Tradutor/tradutor.GIF" width="700">
+<img src="./ArvoresRedBlack_Tradutor/tradutor.GIF" width="700">
 
 ## Propriedades De Árvores Red-Black<a href="#cormen"><sup>[1]</sup></a>
 Em seu livro "Algoritmos", Thomas H. Cormen define a árvore vermelho-preto como uma árvore de busca binária com um bit extra de armazenamento por nó: sua cor (que pode ser VERMELHA ou PRETA). Restringindo as cores dos nós em qualquer caminho simples da raiz até uma folha, as árvores vermelho-preto asseguram que o comprimento de nenhum desses caminhos seja maior que duas vezes o de qualquer outro, de modo que a árvore é aproximadamente balanceada.
@@ -36,7 +36,7 @@ As operações de inserção e remoção, quando executadas em uma árvore verme
 Segua a baixo uma animação para ilustrar o funcionamento do processo de inserção da árvore Red Black<a href="#print"><sup>[5]</sup></a>. Neste exemplo é inserida a sequência de números ordenada de 10 até 29 para obtermos o pior caso da estrutura.
 
 <p align="center">
-  <img src="ArvoresRedBlack_Tradutor/red_black.gif" width="500">
+  <img src="./ArvoresRedBlack_Tradutor/red_black.gif" width="500">
 </p>
 
 ## Rotações
